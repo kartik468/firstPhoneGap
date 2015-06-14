@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>First phone gap</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <button id="do-it">DO it</button>
+    <button id="clear">clear</button>
+    <div id="output-container">
+    </div>
+    <script type="text/javascript" src="./js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="./js/myapp.js"></script>
+    <script type="text/javascript">
+    $("#do-it").on("click", MY_APP.doIt);
+    $("#clear").on("click", MY_APP.clear);
+    </script>
+</body>
+
+</html>
